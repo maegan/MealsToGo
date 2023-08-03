@@ -1,13 +1,12 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar as ExpoStatusBar } from "expo-status-bar";
+import { RestaurantsScreen } from "./src/features/restaurants/screens/restaurants.screen";
+import React from "react";
 
 export default function App() {
   return (
-    <View>
-</View>
+    <>
+      <RestaurantsScreen />
+      <ExpoStatusBar style="auto" />
+    </>
   );
 }
-
-const styles = StyleSheet.create({
-
-});
